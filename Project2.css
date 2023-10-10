@@ -1,0 +1,269 @@
+.navbar {
+  background-color: #333;
+  color: #fff;
+  font-weight: bold;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease;
+}
+
+/* Navigation list styling */
+.nav-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 0;
+  list-style: none;
+  margin: 0;
+}
+
+/* Individual navigation item styling */
+.nav-item {
+  position: relative;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+/* Navigation links styling */
+.nav-item a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 20px;
+  display: block;
+  transition: background-color 0.3s ease;
+  border-bottom: 2px solid transparent;
+}
+
+/* Hover effect on navigation links */
+.nav-item a:hover {
+  background-color: #555;
+  border-bottom: 2px solid #007bff;
+}
+
+/* Dropdown menu styling */
+.has-dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #333;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 1001;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Individual dropdown menu item styling */
+.dropdown-menu li {
+  text-align: center;
+  border-bottom: 1px solid #444;
+}
+
+/* Dropdown menu link styling */
+.dropdown-menu a {
+  display: block;
+  padding: 10px 0;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Hover effect on dropdown menu links */
+.dropdown-menu a:hover {
+  background-color: #555;
+}
+
+/* Styling for the menu items in the header */
+#menu li {
+  display: inline;
+  margin-right: 20px;
+}
+
+/* Add media query for responsiveness if needed */
+@media screen and (max-width: 768px) {
+  /* Define mobile styles here */
+}
+
+.banner {
+  position: absolute;
+  width: 1440px;
+  height: 659px;
+  left: 0px;
+  top: 129px;
+}
+
+ .banner .rectangle-30 {
+  position: absolute;
+  width: 993px;
+  height: 354.3px;
+  left: 447px;
+  top: 344.62px;
+  background: #F07E15;
+}
+
+
+.banner .star-3 {
+  box-sizing: border-box;
+  position: absolute;
+  width: 367px;
+  height: 371.51px;
+  left: 1010px;
+  top: 129px;
+  border: 1px solid #FFFFFF;
+}
+
+.banner .image {
+  position: absolute;
+  width: 432px;
+  height: 654.95px;
+  left: 899px;
+  top: 133.05px;
+  background: url('your-image-url-here.png');
+}
+
+
+.banner .rectangle-29 {
+  position: absolute;
+  width: 993px;
+  height: 354.3px;
+  left: 447px;
+  top: 344.62px;
+  background: #F07E15;
+  opacity: 0.2;
+}
+
+
+.banner .star-4 {
+  position: absolute;
+  width: 64px;
+  height: 89.08px;
+  left: 944px;
+  top: 620.97px;
+  background: #FFFFFF;
+}
+
+
+.banner .text1 {
+  position: absolute;
+  width: 117px;
+  height: 16.2px;
+  left: 1300px;
+  top: 614.9px;
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #161615;
+}
+
+
+.banner .text2 {
+  position: absolute;
+  width: 31px;
+  height: 16.2px;
+  left: 1300px;
+  top: 634.13px;
+  font-family: 'Work Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #161615;
+}
+
+
+.banner .line {
+  position: absolute;
+  width: 976px;
+  height: 0px;
+  left: 0px;
+  top: 665.51px;
+  border: 1px solid #FFFFFF;
+} 
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 20px;
+  background-color: #ffffff; 
+  margin-top: 200px;
+}
+
+.product-item {
+  width: calc(33.33% - 20px);
+  margin: 10px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.product-item h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.product-item p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.product-item strong {
+  font-size: 16px;
+  color: #007bff;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+
+button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
